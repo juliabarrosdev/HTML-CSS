@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat inventore accusamus at labore dolorem! Similique, cupiditate! Est expedita vero a adipisci, et consequatur dolor at asperiores amet suscipit. Illo, nesciunt.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos error voluptates impedit facilis aliquid non suscipit, provident, itaque hic fuga autem cum? Explicabo minus deleniti beatae commodi dolor, harum aliquid.
+            </p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nam, laudantium blanditiis fuga sapiente sequi velit voluptatibus deleniti placeat quaerat excepturi accusantium in, doloribus eos hic obcaecati assumenda quos voluptatum.
+            Doloremque, labore quam, cum ea explicabo similique asperiores aliquam debitis, necessitatibus consectetur fuga totam. Eveniet quos soluta molestias voluptatem? Eligendi nihil porro error vero reprehenderit doloremque fugit totam veniam quidem!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, maiores sequi reprehenderit mollitia quod iure dolor, perferendis, officia sed libero atque eligendi dolore. Impedit error aut voluptatum quidem, eius ea.
+            Eveniet suscipit officiis alias molestias aperiam, rerum laborum magni architecto eum perspiciatis reprehenderit. Eveniet, harum fuga voluptatum error molestias, reprehenderit fugiat consequuntur ipsam, mollitia culpa saepe eum totam consequatur quia.</p>
+        </article>
+    </main>
+    
+    <script>
+        function clickMenu() {
+            if (items.style.display == 'block') {
+                items.style.display = 'none'
+            } else {
+                items.style.display= 'block'
+            }
+        }
+    </script>
+</body>
+</html>
