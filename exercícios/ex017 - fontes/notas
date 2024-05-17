@@ -1,0 +1,6 @@
+/* lighter normal bold bolder */
+font-weight: bold;
+/* normal italic oblique */
+font-style: italic;
+/*sublinhado*/
+text-decoration: underline;

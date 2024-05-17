@@ -1,0 +1,5 @@
+Pequena - 300x300
+Média-700x700
+Grande- 1000x1000
+
+Resolução - 80

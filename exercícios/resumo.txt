@@ -1,0 +1,27 @@
+- A shorthand padding, quando especificada com quatro parâmetros, configura as seguintes propriedades, na ordem:
+
+padding-top, padding-right, padding-bottom, padding-left
+
+- before não se refere a uma pseudo-class em CSS
+
+- CSS signifca Cascading Style Sheets
+
+- A shorthand border agrupa as seguintes propriedades, nesta ordem:
+
+ border-width + border-style + border-color
+
+- Para aplicar sombras às letras que estão dentro de uma caixa, podemos usar a propriedade:
+
+ text-shadow
+
+- Para utilizar estilos CSS externos, devemos usar a tag <link> no documento HTML para fazer o carregamento
+
+- A tipografia se inicia em 1450, com o inventor alemão chamado Johannes Gutenberg
+
+- As letras g, j e Q possuem uma pequena curva que geralmente é representada na área da descendente. Qual é o nome que se dá a essa curva nas é cauda
+
+- Uma pseudo-classe CSS é uma palavra-chave adicionada às declarações de um seletor após um sinal de (:)
+
+- Considere que temos o seguinte link em uma mesma página: <a href=“pag002.html” class=“link”>Página 2</a>. No nome do seletor para configurarmos o que vai acontecer quando o usuário mover o cursor do mouse por cima do link é:
+
+ a.link:hover
